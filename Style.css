@@ -21,7 +21,6 @@ body{
     width: 100%;
 }
 
-
 .logo {
     position: absolute ;
     width: 6%;
@@ -33,7 +32,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: absolute;
     left: 12%;
-    top: 21%;
+    top: 1%;
 }
 
 .nav {
@@ -70,7 +69,7 @@ a:hover{
 /*ESTA CLASSE TEXT SERVE PARA CRIAR O INDICADOR DE TROCA DE PAGINA (Podem deletar quando estiver o conteudo Pronto)*/
 
 
-
+/* Textos pfv arrumaum canto oara os textos */ 
 .div3 {
     position: absolute;
     background-color: rgb(7, 139, 226);
@@ -132,12 +131,12 @@ position: absolute;
     position: absolute;
      width: 40%;
      top: 30%;
-     left: 30%;
+     left:0%;
     }
 
 
     .text4 {
-        top: 20%;
+    top: 20%;
     position: absolute;
     width: 100%;
     left: 0px;
@@ -189,7 +188,7 @@ position: absolute;
         font-size: 30px;
     }
 
-    .text8{
+    .text7{
         top: 180%;
         position: absolute;
         width: 40%;
@@ -199,7 +198,7 @@ position: absolute;
         font-size: 30px;    }
 
     .diretor{
-        top: 170%;
+        top: 230%;
         position: absolute;
         width: 40%;
         left: 57%;
@@ -207,3 +206,45 @@ position: absolute;
         color: rgb(0, 0, 0);
         font-size: 30px;
     }
+
+    .text8{
+        top: 240%;
+        position: absolute;
+        width: 40%;
+        left: 56%;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 30px;    }
+        
+    .tex9{
+        top: 40%;
+        position: absolute;
+        width: 60%;
+        left: 40%;
+        text-align: center;
+        color: rgb( 0, 0, 0);
+        font-size: 30px;    }
+    
+    .text10 {
+        top: 50%;
+        position: absolute;
+        width: 60%;
+        left: 40%;
+        text-align: center;
+        color: rgb( 0, 0, 0);
+        font-size: 30px;    
+    }
+
+    .text11{
+    top: 80%;
+    position: absolute;
+    width: 50%;
+    left: 30%;
+    text-align: center;
+    color: rgb( 0, 0, 0);
+    font-size: 30px;    
+}
+
+        /*não fiz muito porem, vou pesquisa um comando 
+        para quando passa o mause ou clicarem na imagem, aparece um texto explicando certas coisas */ 
+/*Pfv dps alguém pode arruma?*/
