@@ -1,0 +1,96 @@
+.text2 {
+    top: 20%;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.text3 {
+    top: 20%;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.text4 {
+    top: 20%;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.text5 { /* alguém pfv achar isso*/
+
+
+
+
+
+
+
+}
+
+.text6 {
+    top: 90%;
+    position: absolute;
+    width: 40%;
+    left: 57%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.text7{
+    top: 180%;
+    position: absolute;
+    width: 40%;
+    left: 8%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;    }
+
+    .text8{
+        top: 240%;
+        position: absolute;
+        width: 40%;
+        left: 56%;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 30px;    }
+
+        .tex9{
+            top: 40%;
+            position: absolute;
+            width: 60%;
+            left: 40%;
+            text-align: center;
+            color: rgb( 0, 0, 0);
+            font-size: 30px;   }
+
+
+            .text10{
+                top: 50%;
+                position: absolute;
+                width: 60%;
+                left: 40%;
+                text-align: center;
+                color: rgb( 0, 0, 0);
+                font-size: 30px;    }
+
+            .text11{
+                    top: 80%;
+                    position: absolute;
+                    width: 50%;
+                    left: 30%;
+                    text-align: center;
+                    color: rgb( 0, 0, 0);
+                    font-size: 30px;    
+                }
