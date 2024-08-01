@@ -1,0 +1,74 @@
+.box-cards .card figcaption,
+.box-cards .card:after {
+  position: absolute;
+}
+.box-cards {
+  
+  flex-flow: row wrap;
+  margin: 50px 0;
+}
+.box-cards .card {
+  top: 100%;
+  position: absolute;
+  width: 500px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.6);
+  transform-origin: center top;
+  transform-style: preserve-3d;
+  transform: translateZ(0);
+  transition: 0.3s;
+}
+.box-cards .card img {
+  width: 100%;
+  min-height: 100%;
+}
+.box-cards .card figcaption {
+  
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 1.3em;
+    background: none;
+    color: #fff;
+    transform: translateY(100%);
+    transition: 0.3s;
+    width: 100%;
+    height: 120px;
+    line-height: 140px;
+    background: linear-gradient(0deg, rgb(24, 42, 182), transparent);
+    text-align: center;
+}
+.box-cards .card:after {
+  
+  content: '';
+  z-index: 10;
+  width: 200%;
+  height: 100%;
+  top: -100%;
+  left: -20px;
+  opacity: 0.1;
+  transform: rotate(45deg);
+  background: linear-gradient(to top, transparent, #fff 15%, rgba(255,255,255,0.5));
+  transition: 0.3s;
+}
+.box-cards .card:hover,
+.box-cards .card:focus,
+.box-cards .card:active {
+  box-shadow: 0 8px 10px 3px rgba(0,0,0,0.6);
+  transform: translateY(-22px) scale(1.07) rotateX(1deg);
+}
+.box-cards .card:hover figcaption,
+.box-cards .card:focus figcaption,
+.box-cards .card:active figcaption{
+  transform: none;
+}
+.box-cards .card:hover:after,
+.box-cards .card:focus:after,
+.box-cards .card:active:after {
+  transform: rotate(25deg);
+  top: -30%;
+  opacity: 0.15;
+}
