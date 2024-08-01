@@ -1,0 +1,224 @@
+body{
+    background-color: rgb(233, 233, 233);
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+.Home{
+    position: fixed;
+    background-color: rgb(7, 13, 226);
+    color: white;
+    width: 100%;
+    height: 11.5%;
+    left: 0px;
+    top: 0%;
+    text-align: center;
+
+}
+
+#div1 {
+    width: 100%;
+}
+
+.logo {
+    position: absolute ;
+    width: 6%;
+    left: 5%;
+}
+
+#titulo{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 12%;
+    top: 1%;
+}
+
+.nav {
+    position:fixed;
+    width: 10%;
+    height: 10%;
+    left: 65%;
+    top: 1%;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    top: 17%;
+    position: absolute;
+    left: 44%;
+    display: flex;
+    list-style-type: none; 
+    gap: 15%;
+    }
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:hover{
+    color: #afafaf;
+ border-bottom: 2px solid #afafaf;
+}
+
+
+/*ESTA CLASSE TEXT SERVE PARA CRIAR O INDICADOR DE TROCA DE PAGINA (Podem deletar quando estiver o conteudo Pronto)*/
+
+
+/* Textos pfv arrumaum canto oara os textos */ 
+.div3 {
+    position: absolute;
+    background-color: rgba(37, 135, 200, 0.797);
+    top: 80%;
+    left: 0%;
+    width: 100%;
+    height: 300%;
+}
+
+.logo2 {
+    position: static;
+    top: 25%;
+    left: 39%;
+    width: 20%;
+}
+
+.fundo{
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+.text2 {
+    top: 20%;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.divisao{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    width: 50%;
+    height: 50%;
+    font-size: 30px;
+}
+
+.img{
+position: absolute;
+ width: 40%;
+ top: 30%;
+}
+
+
+.text3 {
+    top: 20%;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.img2{
+    position: absolute;
+     width: 40%;
+     top: 30%;
+     left:0%;
+    }
+
+
+.img3 {
+    position: absolute;
+     width: 50%;
+     top: 93%;
+     left: 5%;
+    }
+        .text5 {
+            top: 100%;
+        position: absolute;
+        width: 40%;
+        left: 57%;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+    }
+
+
+    .text6 {
+        top: 90%;
+        position: absolute;
+        width: 40%;
+        left: 57%;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+}
+    .sobreocelia{
+        top: 170%;
+        position: absolute;
+        width: 40%;
+        left: 8%;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+    }
+
+    .text7{
+        top: 180%;
+        position: absolute;
+        width: 40%;
+        left: 8%;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 30px;    }
+
+    .diretor{
+        top: 230%;
+        position: absolute;
+        width: 40%;
+        left: 57%;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+    }
+
+    .text8{
+        top: 240%;
+        position: absolute;
+        width: 40%;
+        left: 56%;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 30px;    }
+        
+    .tex9{
+        top: 40%;
+        position: absolute;
+        width: 60%;
+        left: 40%;
+        text-align: center;
+        color: rgb( 0, 0, 0);
+        font-size: 30px;    }
+    
+    .text10 {
+        top: 50%;
+        position: absolute;
+        width: 60%;
+        left: 40%;
+        text-align: center;
+        color: rgb( 0, 0, 0);
+        font-size: 30px;    
+    }
+
+
+        /*não fiz muito porem, vou pesquisa um comando 
+        para quando passa o mause ou clicarem na imagem, aparece um texto explicando certas coisas */ 
+/*Pfv dps alguém pode arruma?*/
